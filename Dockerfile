@@ -21,4 +21,4 @@ RUN apt install -y vim git wget
 RUN apt install -y build-essential cmake
 
 # --- Other Package Install ---
-RUN apt install ffmpeg
+RUN apt install -y ffmpeg
